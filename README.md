@@ -18,3 +18,17 @@ Simbotic is heavily influeced by the following technology stack:
 ![PyTorch](docs/images/pytorch-logo.png)
 ![Rust](docs/images/rust-min.png)
 ![C++](docs/images/c-min.png)
+
+## [SimboticEngine](https://github.com/Simbotic/SimboticEngine)
+Custom Unreal Engine 4.24 + NVidia Physx 4.0 for Simulation and Robotics. Includes Simbotic plugins.
+
+## SimboticEngine Plugins
+
+### [Streamer](https://github.com/Simbotic/Streamer)
+GStreamer for Unreal Engine. A UE4 plugin for allowing UE4 to launch gstreamer pipelines and provide appsrc and appsinks for video and sensor data.
+
+### [Synthetic](https://github.com/Simbotic/Synthetic)
+A UE4 plugin for generating synthetic datasets. Currently supports PASCAL VOC, YOLO and segmented images. KTTI in progress.
+
+### [DynamicalSystems](https://github.com/Simbotic/DynamicalSystems)
+A UE4 plugins for developing dynamic and interactive physics-based simulations.
